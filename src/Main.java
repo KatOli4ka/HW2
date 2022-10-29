@@ -30,6 +30,8 @@ public class Main {
         System.out.println("Средняя зарплата в России составляет " + averageSalary +" рублей");
         short lenghtTolmachevskayaHPP=67;
         System.out.println("Длина Толмачевской ГЭС " + lenghtTolmachevskayaHPP + " м");
+        boolean whichIsLonger=lenghtTolmachevskayaHPP>lenghtJinpingDam;
+        System.out.println("Утверждение, что длина Толмачевской ГЭС больше длины плотины Цзиньпинь " + whichIsLonger);
 
 
     }
