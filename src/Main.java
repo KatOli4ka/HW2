@@ -57,5 +57,15 @@ public class Main {
         int bottle1Month=time1Month*bottle1Hour;
         System.out.println("За 20 минут машина произвела " +bottle20 +" бутылок. За сутки машина произвела " +bottle1Day+" бутылок. За 3 дня машина произвела "+bottle3Days+" бутылок. За 1 месяц машина произвела " +bottle1Month+" бутылок");
 
+
+        byte totalCans=120;
+        byte whiteCans1Class=2;
+        byte brownCans1Class=4;
+        int totalCans1Class=whiteCans1Class+brownCans1Class;
+        int totalClasses=totalCans/totalCans1Class;
+        int totalWhiteCans=whiteCans1Class*totalClasses;
+        int totalBrownCans=brownCans1Class*totalClasses;
+        System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWhiteCans+" банок белой краски и "+totalBrownCans+" банок коричневой краски");
+
     }
 }
