@@ -80,5 +80,18 @@ public class Main {
         double totalWeightKg=totalWeight/Kg;
         System.out.println("Вес спорт-завтрака составляет "+totalWeight+" г или "+totalWeightKg+" кг");
 
+
+        byte g=1;
+        int kg=1000*g;
+        int kg7=kg*7;
+        int lossWeight1=250;
+        int lossWeight2=500;
+        int days250=kg7/lossWeight1;
+        int days500=kg7/lossWeight2;
+        int lossWeightMiddle=(lossWeight1+lossWeight2)/2;
+        int middleDays=kg7/lossWeightMiddle;
+        System.out.println("Если спортсмен будет терять каждый день по 250 г, то он похудет на 7 кг за "+days250+" дней. Если он будет терять по 500 г, то похудеет за "+days500+" дней. В среднем ему понадобится "+middleDays+" дней на похудение");
+
+
     }
 }
