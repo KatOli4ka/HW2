@@ -67,5 +67,18 @@ public class Main {
         int totalBrownCans=brownCans1Class*totalClasses;
         System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWhiteCans+" банок белой краски и "+totalBrownCans+" банок коричневой краски");
 
+        int banana=80;
+        int banana5=banana*5;
+        int milk=105;
+        int milk2=milk*2;
+        int iceCream=100;
+        int iceCream2=iceCream*2;
+        int egg=70;
+        int eggs4=egg*4;
+        double totalWeight=banana5+milk2+iceCream2+eggs4;
+        double Kg=1000;
+        double totalWeightKg=totalWeight/Kg;
+        System.out.println("Вес спорт-завтрака составляет "+totalWeight+" г или "+totalWeightKg+" кг");
+
     }
 }
