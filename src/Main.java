@@ -26,6 +26,9 @@ public class Main {
         System.out.println("Озеро Ассал находится на " + lakeAssal + " м ниже уровня моря");
         short lenghtJinpingDam=569;
         System.out.println("Длина арочной плотины Цзиньпинь равна " + lenghtJinpingDam +" м");
+        int averageSalary=27897;
+        System.out.println("Средняя зарплата в России составляет " + averageSalary +" рублей");
+
 
     }
 }
