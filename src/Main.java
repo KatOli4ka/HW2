@@ -24,6 +24,8 @@ public class Main {
         System.out.println("Примерный вес медведя равен " + bearWeight + " кг");
         int lakeAssal=-159;
         System.out.println("Озеро Ассал находится на " + lakeAssal + " м ниже уровня моря");
+        short lenghtJinpingDam=569;
+        System.out.println("Длина арочной плотины Цзиньпинь равна " + lenghtJinpingDam +" м");
 
     }
 }
