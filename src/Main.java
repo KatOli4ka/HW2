@@ -14,5 +14,10 @@ public class Main {
         System.out.println("Значение переменной mosquitoWeight с типом float равно " + mosquitoWeight + " г");
 
 
+        float butterflyWeight=27.12f;
+        System.out.println("Вес средней бабочки равен " + butterflyWeight + " г");
+
+
+
     }
 }
