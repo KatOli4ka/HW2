@@ -18,6 +18,9 @@ public class Main {
         System.out.println("Вес средней бабочки равен " + butterflyWeight + " г");
         long lotteryWinner=987678965549L;
         System.out.println("Победитель лоттереи получил " + lotteryWinner +" рублей");
+        byte pen=2;
+        System.out.println("У Пети " + pen +" ручки");
+
 
 
 
