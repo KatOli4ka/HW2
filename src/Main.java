@@ -41,5 +41,21 @@ public class Main {
         short papers=480;
         int paper1Student=papers/totalStudents;
         System.out.println("На каждого ученика рассчитано по " +paper1Student+ " листов бумаги");
+
+        int time=2;
+        int bottle=16;
+        int time1MinuteBottle=bottle/time;
+        int time20minute=20;
+        int bottle20=time1MinuteBottle*time20minute;
+        int time1Hour=60;
+        int bottle1Hour=time1MinuteBottle*time1Hour;
+        int time1Day=24;
+        int bottle1Day=bottle1Hour*time1Day;
+        int time3Days=time1Day*3;
+        int bottle3Days=time3Days*bottle1Hour;
+        int time1Month=time1Day*30;
+        int bottle1Month=time1Month*bottle1Hour;
+        System.out.println("За 20 минут машина произвела " +bottle20 +" бутылок. За сутки машина произвела " +bottle1Day+" бутылок. За 3 дня машина произвела "+bottle3Days+" бутылок. За 1 месяц машина произвела " +bottle1Month+" бутылок");
+
     }
 }
