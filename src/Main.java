@@ -93,5 +93,30 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 250 г, то он похудет на 7 кг за "+days250+" дней. Если он будет терять по 500 г, то похудеет за "+days500+" дней. В среднем ему понадобится "+middleDays+" дней на похудение");
 
 
+        int M=67760;
+        int D=83690;
+        int K=76230;
+        int M10percents=M/10;
+        int D10percents=D/10;
+        int K10percents=K/10;
+        int newM=M+M10percents;
+        int newD=D+D10percents;
+        int newK=K+K10percents;
+        int year=12;
+        int yearM=M*year;
+        int yearD=D*year;
+        int yearK=K*year;
+        int yearNewM=newM*year;
+        int yearNewD=newD*year;
+        int yearNewK=newK*year;
+        int incomeRaiseM=yearNewM-yearM;
+        int incomeRaiseD=yearNewD-yearD;
+        int incomeRaiseK=yearNewK-yearK;
+        System.out.println("Маша теперь получает "+newM+" рублей. Годовой доход вырос на "+incomeRaiseM+" рублей. Денис теперь получает " +newD+" рублей. Годовой доход вырос на "+incomeRaiseD+" рублей. Кристина теперь получает "+newK+" рублей. Годовой доход вырос на "+incomeRaiseK+" рублей"
+        );
+
+
+
+
     }
 }
