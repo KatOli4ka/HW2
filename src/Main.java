@@ -28,6 +28,8 @@ public class Main {
         System.out.println("Длина арочной плотины Цзиньпинь равна " + lenghtJinpingDam +" м");
         int averageSalary=27897;
         System.out.println("Средняя зарплата в России составляет " + averageSalary +" рублей");
+        short dadAge=67;
+        System.out.println("Моему папе " + dadAge + "  лет");
 
 
     }
