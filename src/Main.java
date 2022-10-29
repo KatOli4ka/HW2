@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Значение переменной temperature с типом int равно " + temperature);
         short money=10000;
         System.out.println("Значение переменной money с типом short равно " + money);
-        long distanceToMoon=384467;
+        long distanceToMoon=384467L;
         System.out.println("Значение переменной distanceToMoon с типом long равно " + distanceToMoon+ " км");
         double distanceToMars=55.76;
         System.out.println("Значение переменной distanceToMars с типом double равно " + distanceToMars + " млн. км");
