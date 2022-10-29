@@ -20,7 +20,8 @@ public class Main {
         System.out.println("Победитель лоттереи получил " + lotteryWinner +" рублей");
         byte pen=2;
         System.out.println("У Пети " + pen +" ручки");
-
+        short bearWeight=786;
+        System.out.println("Примерный вес медведя равен " + bearWeight + " кг");
 
 
 
