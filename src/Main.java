@@ -34,12 +34,12 @@ public class Main {
         System.out.println("Утверждение, что длина Толмачевской ГЭС больше длины плотины Цзиньпинь " + whichIsLonger);
 
 
-        var LP=23;
-        var AS=27;
-        var EA=30;
-        var totalStudents=LP+AS+EA;
-        var papers=480;
-        var paper1Student=papers/totalStudents;
+        short LP=23;
+        short AS=27;
+        short EA=30;
+        int totalStudents=LP+AS+EA;
+        short papers=480;
+        int paper1Student=papers/totalStudents;
         System.out.println("На каждого ученика рассчитано по " +paper1Student+ " листов бумаги");
     }
 }
