@@ -22,8 +22,8 @@ public class Main {
         System.out.println("У Пети " + pen +" ручки");
         short bearWeight=786;
         System.out.println("Примерный вес медведя равен " + bearWeight + " кг");
-
-
+        int lakeAssal=-159;
+        System.out.println("Озеро Ассал находится на " + lakeAssal + " м ниже уровня моря");
 
     }
 }
