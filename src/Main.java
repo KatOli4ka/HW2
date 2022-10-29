@@ -16,6 +16,8 @@ public class Main {
 
         float butterflyWeight=27.12f;
         System.out.println("Вес средней бабочки равен " + butterflyWeight + " г");
+        long lotteryWinner=987678965549L;
+        System.out.println("Победитель лоттереи получил " + lotteryWinner +" рублей");
 
 
 
